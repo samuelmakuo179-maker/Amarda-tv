@@ -41,7 +41,8 @@ Name:{film.show.name}
 </strong>
 </p>
 <p>Genres:{film.show.genres?.[0] ?? "No Genre"}</p>
-<p>Ratings: <FaStar className="star"/>{film.show.rating?.average 
+<p>Ratings: <FaStar className="star"/>
+{film.show.rating?.average 
 ?? "NO RATING"}</p>
 <p>Language:{film.show.language}</p>
 </div>
@@ -92,7 +93,8 @@ alt={film.show.name} />
 </p>
 <p>Name: {film.show.name}</p>
 <p>Genre: {film.show.genres?.[0]} </p>
-<p>Rating: <FaStar className="star"/> {film.show.rating?.average ?? "NO RATING"}</p>
+<p>Rating: <FaStar className="star"/> 
+{film.show.rating?.average ?? "NO RATING"}</p>
 <p>Language: {film.show.language}</p>
 </div>
 )})
